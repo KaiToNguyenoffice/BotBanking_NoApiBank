@@ -36,7 +36,11 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-Tạo file **`.env`** (repo không kèm `.env.example`; tham khảo bảng dưới) và chỉnh `config.py` nếu cần hằng số kinh doanh (điểm/ngày, template VietQR, v.v.).
+Sao chép **`.env.example`** thành **`.env`**, điền giá trị thật (xem bảng dưới). File `.env` không commit được (chứa bí mật). Chỉnh `config.py` nếu cần hằng số kinh doanh (điểm/ngày, template VietQR, v.v.).
+
+```powershell
+copy .env.example .env
+```
 
 ## Biến môi trường (`.env`)
 
