@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Local DB (optional: bỏ dòng này nếu muốn commit DB mẫu)
+*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
